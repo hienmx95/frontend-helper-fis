@@ -22,7 +22,7 @@
     "prop-types": "^15.7.2",
     "react-grid-layout": "^0.18.3",
     "query-string": "^6.9.0",
-    "@fwork/table-custom": "git+ssh://git@git.fpt.work:fpt.work/package/table-package.git#v3.1.8"
+    "@fwork/table-custom": "https://github.com/hienmx95/table-package.git"
   },
   "peerDependencies": {
     "react": "16.x"
