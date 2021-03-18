@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="25.385" viewBox="0 0 22 25.385">
+    <defs>
+        <linearGradient id="prefix__linear-gradient" x1="-.45" x2=".5" y1="2.607" y2=".349" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#2e7d32"/>
+            <stop offset="1" stop-color="#4cb75b"/>
+        </linearGradient>
+        <linearGradient id="prefix__linear-gradient-2" x1=".127" x2=".8" y1="1.061" y2=".176" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#37983c"/>
+            <stop offset="1" stop-color="#22bf38"/>
+        </linearGradient>
+        <linearGradient id="prefix__linear-gradient-3" x1="0" x2="1" y1="2.045" y2="0" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-4" x1=".5" x2=".8" y1=".5" y2=".176" xlink:href="#prefix__linear-gradient-2"/>
+    </defs>
+    <g id="prefix__documents" transform="translate(-48 -16)">
+        <path id="prefix__Path_17621" fill="url(#prefix__linear-gradient)" d="M220.357 164.925a.212.212 0 0 0 .151-.36l-4.146-4.216a.212.212 0 0 0-.362.149v3.792a.635.635 0 0 0 .635.635z" data-name="Path 17621" transform="translate(-159.115 -136.656)"/>
+        <path id="prefix__Path_17622" fill="url(#prefix__linear-gradient-2)" d="M55.88 150.5a2.31 2.31 0 0 1-.688-1.639V144h-3.807A3.4 3.4 0 0 0 48 147.385v11.846a3.385 3.385 0 0 0 3.385 3.385H59a3.385 3.385 0 0 0 3.385-3.385v-8.039h-4.866a2.306 2.306 0 0 1-1.639-.692z" data-name="Path 17622" transform="translate(0 -121.231)"/>
+        <path id="prefix__Path_17623" fill="url(#prefix__linear-gradient-3)" d="M360.635 36.925h3.723a.212.212 0 0 0 .151-.36l-4.146-4.216a.212.212 0 0 0-.363.151v3.792a.635.635 0 0 0 .635.633z" data-name="Path 17623" opacity="0.4" transform="translate(-295.499 -15.425)"/>
+        <path id="prefix__Path_17624" fill="url(#prefix__linear-gradient-4)" d="M171.212 23.192a2.345 2.345 0 0 1-2.327-2.327V16h-5.712A3.177 3.177 0 0 0 160 19.173v1.9h2.228a2.158 2.158 0 0 1 1.527.642l5.773 5.87a2.174 2.174 0 0 1 .626 1.534v7.185h2.806a3.149 3.149 0 0 0 3.118-3.173v-9.939z" data-name="Path 17624" opacity="0.4" transform="translate(-106.077)"/>
+    </g>
+</svg>

@@ -1,0 +1,153 @@
+
+.fwork-dashboard-header {
+    .fwork-btn {
+      min-width: 0px;
+    }
+    padding: 32px 24px 0px;
+    text-align: right;
+    background-color: #f0f2f5;
+    .fwork-button-default {
+      .fwork-btn-link {
+        padding: 0 !important;
+        margin-right: 16px;
+      }
+      .fwork-btn-default {
+        margin-right: 8px;
+        background-color: #ffffff;
+        img {
+          margin-right: 8px;
+        }
+      }
+    }
+    .fwork-button-edit {
+      .fwork-btn-link {
+        padding: 0 !important;
+        margin-right: 16px;
+      }
+      .fwork-btn-primary {
+        margin-right: 8px;
+        img {
+          width: 11px;
+          height: 11px;
+          margin-right: 10px;
+        }
+      }
+      .fwork-btn-default {
+        padding: 0px 8px !important;
+        background-color: #ffffff;
+      }
+      .fwork-btn-default:last-child {
+        padding: 0px 16px !important;
+      }
+      button:nth-child(3) {
+        margin-right: 4px;
+      }
+      button:nth-child(4) {
+        margin-right: 8px;
+      }
+      button:nth-child(5) {
+        margin-right: 1px;
+      }
+    }
+  }
+  .fwork-dashboard {
+    z-index: 1;
+    position: relative;
+    .fwork-dashboard-component {
+      background-color: #ffffff;
+      box-shadow: 2px 2px 8px 0 rgba(211, 224, 244, 0.3);
+      .fwork-dashboard-component-action {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        background: transparent;
+        .fwork-btn-default {
+          padding: 0px !important;
+          min-width: 0px;
+          margin-right: 16px;
+        }
+        .fwork-btn.fwork-btn-default:hover, .fwork-btn.fwork-btn-default:focus {
+          background: transparent;
+        }
+      }
+      .fwork-dashboard-component-content {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+  
+  .fwork-gadget-container {
+    border: 1px solid red;
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    img {
+        width: 100px;
+        height: 50px;
+    }
+    .fwork-gadget-information {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 50%;
+        &>:first-child {
+            font-size: 14px;
+            font-weight: 600;
+            display: block;
+            text-align: center;
+        }
+    }
+  }
+  
+  .fwork-dropdown-save-layout {
+    .ant-dropdown-menu-item {
+      color: #172b4d;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .ant-dropdown-menu-item:hover {
+      background-color: #f3f4f6;
+    }
+  }
+  
+  .fwork-dashboard-default {
+    background-color: #f0f2f5;
+  }
+  .fwork-dashboard-editing {
+    background-color: none;
+    .react-resizable-handle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      bottom: 0;
+      right: 0;
+      background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=");
+      background-position: bottom right;
+      padding: 0 3px 3px 0;
+      background-repeat: no-repeat;
+      background-origin: content-box;
+      box-sizing: border-box;
+      cursor: se-resize;
+      z-index: 2;
+    }
+    .react-grid-item.react-grid-placeholder {
+      background: #000;
+      opacity: 0.1;
+      transition-duration: 100ms;
+      z-index: 2;
+      border-radius: 4px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+    }
+  }
+  .fwork-dashboard-grid {
+    position: absolute;
+    top: 64px;
+    z-index: 0;
+    background-color: #f0f2f5;
+  }
+  

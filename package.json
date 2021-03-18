@@ -1,0 +1,53 @@
+{
+  "name": "@fwork/frontend-helper",
+  "version": "1.5.8",
+  "description": "Fwork Frontend Helper",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component --copy-files",
+    "clean": "nwb clean-module",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "js-cookie": "^2.2.1",
+    "moment-timezone": "^0.5.27",
+    "prop-types": "^15.7.2",
+    "react-grid-layout": "^0.18.3",
+    "query-string": "^6.9.0",
+    "@fwork/table-custom": "git+ssh://git@git.fpt.work:fpt.work/package/table-package.git#v3.1.8"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "antd": "^3.25.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4",
+    "nwb": "^0.24.3",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "uuid": "^3.3.3"
+  },
+  "author": "damnn",
+  "homepage": "https://github.com/JamesNguyen9x/react-chat-fwork",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesNguyen9x/react-chat-fwork"
+  },
+  "keywords": [
+    "react-component"
+  ]
+}

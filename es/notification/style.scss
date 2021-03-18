@@ -1,0 +1,39 @@
+.fwork-notification {
+  .ant-notification-notice-message {
+    p {
+      margin-bottom: 0;
+    }
+    font-weight: normal;
+    font-size: 14px;
+    span {
+      color: #0052cc;
+    }
+  }
+  .ant-notification-notice-description {
+    margin-right: 30px;
+    margin-left: 40px;
+  }
+  border-radius: 4px;
+  padding: 22px 20px;
+  &.error {
+    border-left: 4px solid #f5222d;
+  }
+  &.success {
+    border-left: 4px solid #069662;
+  }
+  &.comment {
+    border-left: 4px solid #a7bf2e;
+  }
+  &.alert {
+    border-left: 4px solid #266bd3;
+  }
+  &.warning {
+    border-left: 4px solid #ffb726;
+  }
+  &.edit {
+    border-left: 4px solid #037e8c;
+  }
+  &.remove {
+    border-left: 4px solid #ffb726;
+  }
+}
