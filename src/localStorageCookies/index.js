@@ -1,5 +1,5 @@
 import Cookies from 'js-cookie';
-const JWT_TOKEN = process.env.JWT_TOKEN || process.env.REACT_APP_JWT_TOKEN;
+const JWT_TOKEN = process.env.JWT_TOKEN || 'fwork-token';
 
 export function setToken ( token ) {
   Cookies.set( JWT_TOKEN, token );
